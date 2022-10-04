@@ -42,9 +42,7 @@ class RedCarpetApplication(Adw.Application):
 
     def __init__(self):
         super().__init__(application_id=app_id,
-                         flags=Gio.ApplicationFlags.FLAGS_NONE)
-        self.server = self.settings.get_string("server-url")
-        
+                         flags=Gio.ApplicationFlags.FLAGS_NONE)        
         self.create_action('quit', self.quit, ['<primary>q'])
         self.create_action('about', self.show_about_window)
         self.create_action('preferences', self.on_preferences_action)

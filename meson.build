@@ -80,7 +80,7 @@ local_conf.set('BUILD_DIR', meson.current_build_dir())
 local_conf.set('local_build', 'True')
 
 # Subdirs
-subdir('RedCarpet')
+subdir('redcarpet')
 subdir('data')
 subdir('po')
 
