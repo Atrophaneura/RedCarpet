@@ -1,0 +1,7 @@
+data/com.github.Atrophaneura.RedCarpet.desktop.in.in
+data/com.github.Atrophaneura.RedCarpet.appdata.xml.in.in
+data/com.github.Atrophaneura.RedCarpet.gschema.xml.in
+data/ui/window.blp
+redcarpet/main.py
+redcarpet/window.py
+
