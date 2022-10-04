@@ -49,7 +49,6 @@ endif
 
 PKGDATA_DIR = join_paths(get_option('prefix'), get_option('datadir'), meson.project_name())
 MODULE_DIR = join_paths(PKGDATA_DIR, 'redcarpet')
-PLUGINS_DIR = join_paths(PKGDATA_DIR, 'redcarpet', 'plugins')
 
 # Install configuration data
 conf = configuration_data()
